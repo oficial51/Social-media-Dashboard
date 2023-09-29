@@ -15,7 +15,7 @@ function App() {
   const size = useWindowSize();
   return (
     <main
-      className={`bg-[#1D2029] flex h-screen flex-col items-center ${
+      className={`bg-[#1D2029] flex lg:h-screen flex-col items-center ${
         dark == true ? "bg-[#1D2029] text-[#9AA0C2]" : "bg-white text-[#696C7B]"
       } font-bold w-screen `}
     >
